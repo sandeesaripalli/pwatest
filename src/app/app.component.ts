@@ -14,6 +14,7 @@ export class AppComponent implements OnInit {
   modalVersion: boolean;
   modalPwaEvent: any;
   modalPwaPlatform: string|undefined;
+  lastmodifiedDate: Date = new Date();
 
   constructor(private platform: Platform,
               private swUpdate: SwUpdate) {
@@ -77,11 +78,8 @@ export class AppComponent implements OnInit {
   }
   public previewImage(event:any) {
     console.log(event);
-    const reader = new FileReader();
-    reader.onload = (e: any) => {
-      console.log('csv content', e.target.result);
-    };
-    reader.readAsDataURL(event.target.files[0]);
+    
+    this.lastmodifiedDate = new Date(event.target.files[0].lastModified);
   }
 
 
