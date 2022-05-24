@@ -75,6 +75,16 @@ export class AppComponent implements OnInit {
     this.modalPwaEvent.prompt();
     this.modalPwaPlatform = undefined;
   }
+  public previewImage(event:any) {
+    console.log(event);
+    const reader = new FileReader();
+    reader.onload = (e: any) => {
+      console.log('csv content', e.target.result);
+    };
+    reader.readAsDataURL(event.target.files[0]);
+  }
+
+
 
   public closePwa(): void {
     this.modalPwaPlatform = undefined;
