@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1653323342285,
+  "timestamp": 1653399575545,
   "index": "https://sandeesaripalli.github.io/pwatest/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://sandeesaripalli.github.io/pwatest/favicon.ico",
         "https://sandeesaripalli.github.io/pwatest/index.html",
-        "https://sandeesaripalli.github.io/pwatest/main.41d9b8f6eebea538.js",
+        "https://sandeesaripalli.github.io/pwatest/main.671695bb4e3816d3.js",
         "https://sandeesaripalli.github.io/pwatest/manifest.webmanifest",
         "https://sandeesaripalli.github.io/pwatest/polyfills.1f615f6503c45a75.js",
         "https://sandeesaripalli.github.io/pwatest/runtime.64a4c478f89723db.js",
@@ -56,8 +56,8 @@
     "https://sandeesaripalli.github.io/pwatest/bootstrap-icons.04b74c9ca959c717.woff": "d5868949a21b702b784cd43437cf00f35d514e12",
     "https://sandeesaripalli.github.io/pwatest/bootstrap-icons.cafbf7170f1f1b17.woff2": "729751b69abdc0dbdd1df847dcaa04fff512d49a",
     "https://sandeesaripalli.github.io/pwatest/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://sandeesaripalli.github.io/pwatest/index.html": "817777f4b500f4305865f36de74c467414a7e183",
-    "https://sandeesaripalli.github.io/pwatest/main.41d9b8f6eebea538.js": "c8c60c4eadda2dd8e268bc18ce5c35d59e4a9d1e",
+    "https://sandeesaripalli.github.io/pwatest/index.html": "68a94e48d0ecb18566dde71afb160757e9c48a23",
+    "https://sandeesaripalli.github.io/pwatest/main.671695bb4e3816d3.js": "188f8cde207c3af422984a58b2bacc6d84715151",
     "https://sandeesaripalli.github.io/pwatest/manifest.webmanifest": "647db4fba4be264d65d1cbc9d3c6606d05610dcf",
     "https://sandeesaripalli.github.io/pwatest/polyfills.1f615f6503c45a75.js": "5db53e33d6de8da25b652053d5e7c69cc7136e37",
     "https://sandeesaripalli.github.io/pwatest/runtime.64a4c478f89723db.js": "49fa9038357f3db0130e1219265c8b5582c37349",
