@@ -82,6 +82,8 @@ export class AppComponent implements OnInit {
     this.lastmodifiedDate = new Date(event.target.files[0].lastModified);
   }
 
+  
+
 
 
   public closePwa(): void {

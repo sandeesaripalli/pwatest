@@ -11,6 +11,12 @@
 </div>
 <input id="preview" type="file" (change)="previewImage($event)" />
 {{ lastmodifiedDate }}
+<a
+  download
+  href="https://file-examples.com/wp-content/uploads/2017/02/file-sample_100kB.doc"
+  class="btn btn-orange btn-outline btn-xl page-scroll download-button"
+  >Download sample DOC file</a
+>
 
 <div class="w-100 position-absolute top-0" *ngIf="modalVersion">
   <div class="alert alert-secondary m-2">
